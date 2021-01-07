@@ -1,7 +1,13 @@
 @import url('/vendor/normalize.css');
 @import url('/vendor/fonts/fonts.css');
 
-.font {
-  font-family: 'Cinzen', sans-serif;
-  font-weight: normal;
+.page {
+  background: #fff;
+}
+
+.page__container {
+  margin: 0 auto;
+  max-width: 1364px;
+  height: 100vh;
+  border: 1px solid red;
 }
