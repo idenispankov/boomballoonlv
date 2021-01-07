@@ -1,13 +1,58 @@
-@import url('/vendor/normalize.css');
-@import url('/vendor/fonts/fonts.css');
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts/fonts.css');
+@import url('../blocks/page/page.css');
 
-.page {
-  background: #fff;
+.header {
+  height: 50px;
+  display: flex;
+  /* margin: 20px 0 20px 0; */
+  padding: 20px 0 20px;
+  border: 1px solid green;
 }
 
-.page__container {
-  margin: 0 auto;
-  max-width: 1364px;
-  height: 100vh;
-  border: 1px solid red;
+.header__logo {
+  font-family: 'Cinzen', sans-serif;
+  margin: 0 100px 0 0;
+  padding: 0;
+  display: block;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 50px;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  width: 450px;
+}
+
+.header__links {
+  margin: auto 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  width: 714px;
+  justify-content: space-between;
+  border-radius: 50px;
+  padding: 10px 100px;
+  background-color: rgb(243, 192, 171);
+  align-self: center;
+}
+
+.header__link {
+  text-decoration: none;
+  color: black;
+  font-family: 'Cinzen', sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  transition: opacity 0.5s;
+}
+
+.header__link:hover {
+  opacity: 0.5;
+  border-bottom: 1px solid green;
+  font-size: 31px;
+  
+}
+
+.header__link_active {
+  border-bottom: 1px solid green;
 }
