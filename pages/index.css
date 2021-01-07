@@ -1,0 +1,7 @@
+@import url('/vendor/normalize.css');
+@import url('/vendor/fonts/fonts.css');
+
+.font {
+  font-family: 'Cinzen', sans-serif;
+  font-weight: normal;
+}
