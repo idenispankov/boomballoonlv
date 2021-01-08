@@ -1,0 +1,13 @@
+.prices__text {
+  font-family: 'Cinzen', sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  width: 250px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 5px;
+  left: 100px;
+  color: #fff;
+}
