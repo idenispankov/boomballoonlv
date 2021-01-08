@@ -47,6 +47,7 @@
 
 .header__link:hover {
   border-bottom: 2px solid green;
+  font-weight: 500;
   
 }
 
@@ -114,4 +115,32 @@
 .intro__link:hover {
   font-size: 30px;
   border-bottom: 2px solid green;
+}
+
+.footer {
+  background-color: rgb(243, 192, 171);
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.footer__copyright {
+  font-family: "Cinzen", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  margin: auto;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.footer__icon {
+  margin-right: 55px;
+  margin-left: 40px;
+  padding: 0;
+  text-decoration: none;
+}
+
+.footer__icon:hover {
+  border-bottom: 1px solid green;
 }
