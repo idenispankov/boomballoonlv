@@ -1,0 +1,9 @@
+@import url('./__image/about__image.css');
+@import url('./__description/about__description.css');
+@import url('./__heading/about__heading.css');
+@import url('./__text/about__text.css');
+@import url('./__list/about__list.css');
+
+.about {
+  display: flex;
+}
