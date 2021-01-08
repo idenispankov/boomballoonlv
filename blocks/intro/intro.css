@@ -1,0 +1,13 @@
+@import url('./__slogan/intro__slogan.css');
+@import url('./__text/intro__text.css');
+@import url('./__link/intro__link.css');
+
+.intro {
+  background: url('../../images/home_page_balloons.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1364px;
+  height: 900px;
+  position: relative;
+}

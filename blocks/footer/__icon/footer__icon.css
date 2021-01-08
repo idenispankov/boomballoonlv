@@ -1,0 +1,10 @@
+.footer__icon {
+  margin-right: 55px;
+  margin-left: 35px;
+  padding: 0;
+  text-decoration: none;
+}
+
+.footer__icon:hover {
+  border-bottom: 1px solid green;
+}

@@ -1,0 +1,18 @@
+.intro__link {
+  font-family: 'Cinzen', sans-serif;
+  text-decoration: none;
+  color: black;
+  margin: 0;
+  padding-left: 0;
+  font-weight: 500;
+  font-size: 25px;
+  position: absolute;
+  top: 500px;
+  left: 365px;
+  transition: font-size 0.5s;
+}
+
+.intro__link:hover {
+  font-size: 30px;
+  border-bottom: 1px solid black;
+}

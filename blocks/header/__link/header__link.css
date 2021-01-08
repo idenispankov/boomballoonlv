@@ -1,0 +1,16 @@
+.header__link {
+  text-decoration: none;
+  color: black;
+  font-family: 'Cinzen', sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.header__link:hover {
+  border-bottom: 2px solid black;
+  font-weight: 500;
+}
+
+.header__link_active {
+  border-bottom: 2px solid black;
+}
