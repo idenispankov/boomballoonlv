@@ -11,3 +11,12 @@
 .contact__message:focus {
   background-color: rgb(243, 192, 171);
 }
+
+@media screen and (max-width: 700px) {
+  .contact__message {
+  min-height: 100px;
+  max-height: 100px;
+  min-width: 260px;
+  max-width: 260px;
+  }
+}

@@ -3,3 +3,9 @@
   margin: 0 auto;
   width: 400px;
 }
+
+@media screen and (max-width: 700px) {
+  .contact__form {
+    width: 250px;
+  }
+}

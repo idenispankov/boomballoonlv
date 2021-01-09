@@ -13,3 +13,9 @@
 .contact__form_submit:hover {
   background-color: rgb(243, 192, 171);
 }
+
+@media screen and (max-width: 700px) {
+  .contact__form_submit {
+    width: 260px;
+  }
+}
