@@ -11,3 +11,44 @@
   left: 100px;
   color: #fff;
 }
+
+.prices__image_1 {
+  position: relative;
+}
+
+@media screen and (max-width: 1379px) {
+  .prices__text {
+    left: 50px;
+    top: 20px;
+  }
+}
+
+@media screen and (max-width: 1119px) {
+  .prices__text {
+    left: 200px;
+    top: 50px;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .prices__text {
+    left: 0;
+    top: 30px;
+    font-size: 20px;
+    max-width: 360px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .prices__text {
+    left: 200px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .prices__text {
+    left: 0;
+  }
+}
