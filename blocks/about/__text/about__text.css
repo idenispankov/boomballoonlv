@@ -7,3 +7,16 @@
   padding-bottom: 20px;
   width: 480px;
 }
+
+@media screen and (max-width: 1119px) {
+  .about__text {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about__text {
+    width: 200px;
+    margin-left: 50px;
+  }
+}

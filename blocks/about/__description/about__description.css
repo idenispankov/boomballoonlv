@@ -2,3 +2,9 @@
   background: rgb(243, 240, 239);
   width: 50%;
 }
+
+@media screen and (max-width: 769px) {
+  .about__description {
+    width: 100%;
+  }
+}
