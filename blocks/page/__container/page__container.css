@@ -3,3 +3,10 @@
   max-width: 1364px;
   height: 100vh;
 }
+
+@media screen and (max-width: 1379px) {
+  .page__container {
+    max-width: 1100px;
+    border: 1px solid red;
+  }
+}

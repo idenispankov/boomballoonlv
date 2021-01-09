@@ -6,9 +6,10 @@
   background: url('../../images/home_page_balloons.jpeg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 1364px;
-  height: 900px;
+  background-size: contain;
+  width: 100%;
+  min-height: 700px;
   position: relative;
   margin-bottom: 20px;
+  object-fit:contain;
 }

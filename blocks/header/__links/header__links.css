@@ -10,3 +10,11 @@
   background-color: rgb(243, 192, 171);
   align-self: center;
 }
+
+@media screen and (max-width: 1379px) {
+  .header__links {
+    padding: 20px;
+    /* border: 1px solid red; */
+    margin-right: 50px;
+  }
+}

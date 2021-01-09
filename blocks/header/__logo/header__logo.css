@@ -11,3 +11,9 @@
   align-items: center;
   width: 450px;
 }
+
+@media screen and (max-width: 1379px) {
+  .header__logo {
+    margin-right: 50px;
+  }
+}
