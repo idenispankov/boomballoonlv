@@ -1,0 +1,16 @@
+.contact__input {
+  width: 100%;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid rgb(243, 192, 171)
+}
+
+.contact__input:last-child {
+  height: 150px;
+}
+
+.contact__input:focus {
+  border: 1px solid rgb(243, 192, 171);
+  background-color: rgb(243, 192, 171);
+}

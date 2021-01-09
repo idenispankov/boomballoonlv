@@ -1,0 +1,16 @@
+@import url('./__form/contact__form.css');
+@import url('./__image/contact__image.css');
+@import url('./__heading/contact__heading.css');
+@import url('./__text/contact__text.css');
+@import url('./__info/contact__info.css');
+@import url('./__label/contact__label.css');
+@import url('./__input/contact__input.css');
+@import url('./__message/contact__message.css');
+@import url('./__form_submit/contact__form_submit.css');
+
+.contact {
+  display: flex;
+  background: rgb(243, 240, 239);
+  margin-bottom: 20px;
+  min-height: 900px;
+}

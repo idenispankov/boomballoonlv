@@ -1,0 +1,13 @@
+.contact__message {
+  padding: 0;
+  width: 100%;
+  min-height: 150px;
+  max-height: 150px;
+  min-width: 410px;
+  max-width: 410px;
+  border: 1px solid rgb(243, 192, 171);
+}
+
+.contact__message:focus {
+  background-color: rgb(243, 192, 171);
+}
