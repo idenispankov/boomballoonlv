@@ -9,3 +9,9 @@
   background-color: rgb(243, 240, 239);
   padding-bottom: 20px;
 }
+
+@media screen and (max-width: 700px) {
+  .gallery__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
