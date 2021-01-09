@@ -1,7 +1,6 @@
 .page__container {
   margin: 0 auto;
   max-width: 1364px;
-  border: 1px solid red;
 }
 
 @media screen and (max-width: 1379px) {
