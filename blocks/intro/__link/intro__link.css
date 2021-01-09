@@ -31,8 +31,8 @@
 
 @media screen and (max-width: 910px) {
   .intro__link {
-    top: 400px;
-    left: 140px;
+    top: 500px;
+    left: 270px;
     font-size: 20px;
   }
 
@@ -43,8 +43,8 @@
 
 @media screen and (max-width: 700px) {
   .intro__link {
-    top: 170px;
+    top: 270px;
     font-size: 12px;
-    left: 80px;
+    left: 130px;
   }
 }

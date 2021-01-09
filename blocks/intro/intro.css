@@ -8,19 +8,28 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  min-height: 700px;
+  min-height: 80vh;
   position: relative;
   margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1379px) {
+  .intro {
+    min-height: 80vh;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 910px) {
   .intro {
-    min-height: 500px;
+    min-height: 80vh;
   }
 }
 
 @media screen and (max-width: 700px) {
   .intro {
-    min-height: 250px;
+    /* min-height: 250px; */
+    min-height: 67vh;
   }
 }

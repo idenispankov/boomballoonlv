@@ -32,8 +32,9 @@
 
 @media screen and (max-width: 910px) {
   .intro__slogan {
-    max-width: 350px;
-    font-size: 20px;
+    max-width: 500px;
+    left: 100px;
+    top: 100px;
   }
 }
 
@@ -42,6 +43,6 @@
     max-width: 250px;
     font-size: 15px;
     top: 30px;
-    left: 5px;
+    left: 50px;
   }
 }
