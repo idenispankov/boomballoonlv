@@ -14,3 +14,31 @@
 .header__link_active {
   border-bottom: 2px solid black;
 }
+
+@media screen and (max-width: 1119px) {
+  .header__link {
+    font-size: 20px;
+  }
+
+  .header__link:hover {
+    border-bottom: 1px solid black;
+  }
+
+  .header__link_active {
+    border-bottom: 1px solid black;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .header__link {
+    font-size: 12px;
+  }
+
+  .header__link:hover {
+    border-bottom: 1px solid black;
+  }
+
+  .header__link_active {
+    border-bottom: 1px solid black;
+  }
+}

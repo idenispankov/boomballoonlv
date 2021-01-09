@@ -12,3 +12,15 @@
   position: relative;
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 910px) {
+  .intro {
+    min-height: 500px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .intro {
+    min-height: 250px;
+  }
+}

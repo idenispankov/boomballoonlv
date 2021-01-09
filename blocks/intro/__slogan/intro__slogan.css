@@ -10,7 +10,38 @@
   text-align: center;
   display: block;
   top: 200px;
-  left: 150px;
+  left: 120px;
   text-shadow: 2px 2px rgb(243, 192, 171);
   padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1379px) {
+  .intro__slogan {
+    left: 10px;
+    top: 150px;
+  }
+}
+
+@media screen and (max-width: 1119px) {
+  .intro__slogan {
+    max-width: 500px;
+    font-size: 30px;
+    left: 30px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .intro__slogan {
+    max-width: 350px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .intro__slogan {
+    max-width: 250px;
+    font-size: 15px;
+    top: 30px;
+    left: 5px;
+  }
 }

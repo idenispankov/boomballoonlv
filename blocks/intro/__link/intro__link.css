@@ -16,3 +16,35 @@
   font-size: 30px;
   border-bottom: 1px solid black;
 }
+
+@media screen and (max-width: 1379px) {
+  .intro__link {
+    left: 240px;
+  }
+}
+
+@media screen and (max-width: 1119px) {
+  .intro__link {
+    left: 175px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .intro__link {
+    top: 400px;
+    left: 140px;
+    font-size: 20px;
+  }
+
+  .intro__link:hover {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .intro__link {
+    top: 170px;
+    font-size: 12px;
+    left: 80px;
+  }
+}

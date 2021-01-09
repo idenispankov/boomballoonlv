@@ -14,7 +14,19 @@
 @media screen and (max-width: 1379px) {
   .header__links {
     padding: 20px;
-    /* border: 1px solid red; */
     margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .header__links {
+    padding: 12px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header__links {
+    max-width: 300px;
+    margin: 0 auto;
   }
 }

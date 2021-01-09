@@ -9,3 +9,33 @@
   left: 200px;
   font-size: 20px;
 }
+
+@media screen and (max-width: 1379px) {
+  .intro__text {
+    left: 75px;
+  }
+}
+
+@media screen and (max-width: 1119px) {
+  .intro__text {
+    font-size: 17px;
+    max-width: 500px;
+    left: 65px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .intro__text {
+    font-size: 12px;  top: 275px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .intro__text {
+    top: 100px;
+    font-size: 10px;
+    left: 5px;
+    max-width: 250px;
+    text-align: center;
+  }
+}
