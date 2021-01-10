@@ -3,3 +3,10 @@
   text-align: center;
   padding-top: 100px;
 }
+
+@media screen and (max-width: 700px) {
+  .success__heading {
+    padding-top: 20px;
+    font-size: 30px;
+  }
+}
