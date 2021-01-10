@@ -2,7 +2,7 @@
   if (isset($_POST['email']))  {
   
     //Email information
-    $admin_email = "boomballoonlv@boomballoonlv.com";
+    $admin_email = "boomballoonlv@gmail.com";
     $name = $_POST['name'];
     $last = $_POST['last'];
     $email = $_POST['email'];
@@ -12,5 +12,5 @@
     //send email
     mail($admin_email, "New Form Submission", $message . ' - ' . "From:" . $email);
     
-    header('Location: http://boomballoonlv/success.html');
+    header('Location: http://boomballoonlv.com/success.html');
   }
