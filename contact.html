@@ -34,15 +34,15 @@
           <p class="contact__text">No party is too big or small for us. Give us a call and make your event memorable!</p>
           <p class="contact__info">Tel: (646) 427 - 2948</p>
           <p class="contact__info" type="email">Email: boomballoonlv@gmail.com</p>
-          <form action="" class="contact__form">
+          <form action="./process.php" method="POST" class="contact__form">
             <label class="contact__label" required for="name">First Name</label>
             <input class="contact__input" type="text" name="name" required maxlength="25" minlength="1">
-            <label class="contact__label" required for="last_name">Last Name</label>
-            <input class="contact__input" type="text" name="last_name" required maxlength="25" minlength="1">
-            <label class="contact__label" required for="name" maxlength="40">Email</label>
+            <label class="contact__label" required for="last">Last Name</label>
+            <input class="contact__input" type="text" name="last" required maxlength="25" minlength="1">
+            <label class="contact__label" required for="email" maxlength="40">Email</label>
             <input class="contact__input" type="email" name="email" required maxlength="25" minlength="1">
-            <label class="contact__label" required for="name">Subject</label>
-            <input class="contact__input" type="text" name="text" required maxlength="25" minlength="1">
+            <label class="contact__label" required for="subject">Subject</label>
+            <input class="contact__input" type="text" name="subject" required maxlength="25" minlength="1">
             <label class="contact__label" required for="message" >Message</label>
             <textarea class="contact__message" name="message" maxlength="250" minlength="1"></textarea>
             <input class="contact__form_submit" type="Submit">

@@ -1,0 +1,11 @@
+.success__back {
+  font-family: 'Cinzen', sans-serif;
+  text-align: center;
+  display: block;
+  color: black;
+  transition: font-size, 1s;
+}
+
+.success__back:hover {
+  font-size: 20px;
+}
