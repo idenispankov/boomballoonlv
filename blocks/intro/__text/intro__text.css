@@ -36,9 +36,9 @@
 
 @media screen and (max-width: 700px) {
   .intro__text {
-    top: 100px;
+    top: 200px;
     font-size: 10px;
-    left: 60px;
+    left: 50px;
     max-width: 250px;
     text-align: center;
   }
