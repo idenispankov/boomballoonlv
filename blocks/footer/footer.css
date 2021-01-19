@@ -1,9 +1,0 @@
-@import url('./__copyryght/footer__copyright.css');
-@import url('./__icon/footer__icon.css');
-
-.footer {
-  background-color: rgb(243, 192, 171);
-  display: flex;
-  justify-content: center;
-  padding-top: 10px;
-}

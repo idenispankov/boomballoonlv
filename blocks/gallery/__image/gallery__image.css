@@ -1,8 +1,0 @@
-.gallery__image {
-  /* width: 325px;
-  height: 325px; */
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: cover;
-}
