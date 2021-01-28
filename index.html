@@ -23,7 +23,7 @@
             <li><a class="navbar__list_item" href="#home">Home</a></li>
             <li><a class="navbar__list_item" href="#about">About</a></li>
             <li><a class="navbar__list_item" href="#gallery">Gallery</a></li>
-            <li><a class="navbar__list_item navbar__list_item-btn" href="#">Contact Us</a></li>
+            <li><a class="navbar__list_item navbar__list_item-btn" href="#contact">Contact Us</a></li>
           </ul>
         </nav>
       </div>
@@ -31,12 +31,13 @@
       <div class="content">
         <h1 class="content__heading">IF YOU CAN DREAM IT, WE CAN CREATE IT!</h1>
         <p class="content__text"> Custom Balloons Decoration</p>
-        <a href="#" class="content__button">Our Offers</a>
+        <a href="#offers" class="content__button">Our Offers</a>
       </div>
     </header>
 
     <main>
-      <!-- About -->
+
+
       <section id="about" class="about">
         <ul class="about__icons">
           <li class="about__icon"> <img class="about__icon-image" src="./img/baby_shower.png" alt="">
@@ -54,7 +55,7 @@
         </ul>
       </section>
 
-      <!-- Description -->
+
       <section class="description">
         <div class="description__container">
           <div class="description__column">
@@ -74,9 +75,14 @@
         </div>
         <div class="team__profiles">
           <div>
-            <img class="team__image" src="./img/person1.jpg" alt="" />
+            <img class="team__image" src="./img/person2.jpg" alt="" />
             <h4 class="team__image_heading">Kristina Korshunova</h4>
             <p class="team__image_text">Founder</p>
+          </div>
+          <div>
+            <img class="team__image" src="./img/person1.jpg" alt="" />
+            <h4 class="team__image_heading">Denis Pankov</h4>
+            <p class="team__image_text">Web Developer</p>
           </div>
           <div>
             <img class="team__image" src="./img/person2.jpg" alt="" />
@@ -113,10 +119,10 @@
         </ul>
       </section>
 
-      <section class="offers">
+      <section class="offers" id="offers">
         <div class="offers__description">
           <h2 class="offers__heading">Offers</h2>
-          <p class="offers__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit Fugiat,dolore!</p>
+          <p class="offers__text">Please contact for details</p>
         </div>
         <ul class="offers__name">
           <li class="offers__name_item"> 
@@ -146,7 +152,7 @@
         </ul>
       </section>
 
-      <section class="contact">
+      <section class="contact" id="contact">
         <div class="contact__description">
           <h2 class="contact__heading">Contact Us</h2>
           <p class="contact__text">Please fill out a form to request callback or contact as at</p>
@@ -154,35 +160,33 @@
           <p class="contact__text">or</p>
           <p class="contact__text">Tel: (702)325-7481</p>
         </div>
-        <div class="contact__container">
-          <div class="contact__column">
-            <img class="contact__image" src="./img/contact.jpg" alt="">
+
+        <div class="description__container">
+          <div class="description__column">
+            <img class="description__image" src="./img/contact.jpg" alt="">
           </div>
-          <form action="process.php" method="POST" class="contact__form">
-            <h2 class="contact__form_heading">Request Callback</h2>
-            <label class="contact__label" required for="name">First Name</label>
-            <input class="contact__input" type="text" name="name" required maxlength="25" minlength="1">
-            <label class="contact__label" required for="last">Last Name</label>
-            <input class="contact__input" type="text" name="last" required maxlength="25" minlength="1">
-            <label class="contact__label" required for="email" maxlength="40">Email</label>
-            <input class="contact__input" type="email" name="email" required maxlength="25" minlength="1">
-            <label class="contact__label" required for="subject">Subject</label>
-            <input class="contact__input" type="text" name="subject" required maxlength="25" minlength="1">
-            <label class="contact__label" required for="message" >Message</label>
-            <textarea class="contact__message" name="message" maxlength="250" minlength="1"></textarea>
-            <input class="contact__form_submit" type="submit" value="Send">
-          </form>
+          <div class="contact__column_description">
+            <h2 class="description__heading">Request Callback</h2>
+            <form action="process.php" method="POST" class="contact__form">
+              <input class="contact__input" placeholder="Enter Name" type="text" name="name" required maxlength="25" minlength="1">
+              <input class="contact__input" placeholder="Enter Email" type="email" name="email" required maxlength="25" minlength="1">
+              <input class="contact__input" placeholder="Enter Phone" type="email" name="email" required maxlength="25" minlength="1">
+              <input class="contact__form_submit navbar__list_item-btn" type="submit" value="Send" id="submit">
+            </form>
+          </div>
+        </div>
+
       </section>
 
-      <div class="contact__description">
-        <h2 class="contact__heading">Contact Us</h2>
-        <p class="contact__text">Please fill out a form to request callback or contact as at</p>
-        <p class="contact__text">BoomBalloonLV@gmail.com</p>
-        <p class="contact__text">or</p>
-        <p class="contact__text">Tel: (702)325-7481</p>
-      </div>
-
     </main>
+
+    <footer class="footer">
+      <div class="footer__icons">
+        <a href="#"> <img class="footer__icon" src="./img/facebook.png" alt=""> </a>
+        <a href="#"> <img class="footer__icon" src="./img/instagram.png" alt=""> </a>
+      </div>
+      <p class="footer__copyright">BoomBalloonLV &copy; 2021 - All Rights Reserved</p>
+    </footer>
   </div>
 </body>
 </html>
