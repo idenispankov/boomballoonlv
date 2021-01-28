@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./pages/index.css">
   <title>BoomBalloonLV | Custom Balloons Decoration</title>
 </head>
-<body>
+<body id="home">
   <div class="page">
     <header class="header">
       <div class="navbar">
@@ -20,8 +20,8 @@
         </div>
         <nav>
           <ul class="navbar__list">
-            <li><a class="navbar__list_item" href="#">Home</a></li>
-            <li><a class="navbar__list_item" href="#">About</a></li>
+            <li><a class="navbar__list_item" href="#home">Home</a></li>
+            <li><a class="navbar__list_item" href="#about">About</a></li>
             <li><a class="navbar__list_item" href="#">Gallery</a></li>
             <li><a class="navbar__list_item navbar__list_item-btn" href="#">Contact</a></li>
           </ul>
@@ -31,12 +31,12 @@
       <div class="content">
         <h1 class="content__heading">IF YOU CAN DREAM IT, WE CAN CREATE IT!</h1>
         <p class="content__text"> Custom Balloons Decoration</p>
-        <a href="#" class="content__button">Read More</a>
+        <!-- <a href="#" class="content__button">Read More</a> -->
       </div>
-
     </header>
 
     <main>
+      <!-- About -->
       <section id="about" class="about">
         <ul class="about__icons">
           <li class="about__icon"> <img class="about__icon-image" src="./img/baby_shower.png" alt="">
@@ -53,6 +53,20 @@
           </li>
         </ul>
       </section>
+
+      <!-- Service -->
+      <section class="service">
+        <div class="service__container">
+          <div class="service__column">
+            <img class="service__image" src="./img/IMG_5443.JPG" alt="">
+          </div>
+          <div class="service__column service__column_description">
+            <h2 class="service__heading">We provide best balloon decoration in Las Vegas</h2>
+            <p class="service__text">No parties is too big or too small for us. Give us a call and make your event memorable!</p>
+          </div>
+        </div>
+      </section>
+
     </main>
   </div>
 </body>
