@@ -88,10 +88,6 @@
   font-weight: 500px;
 }
 
-.navbar__list_item-current {
-  border-bottom: 2px solid #09a9f3;
-}
-
 .navbar__list_item:hover {
   border-bottom: 2px solid #09a9f3;
 }
@@ -167,4 +163,44 @@
   margin: 0;
   display: flex;
   text-decoration: none;
+}
+
+/*  */
+
+.about {
+  padding: 40px 0;
+}
+
+.about__icons {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.about__icon {
+  margin: 0;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about__icon-image {
+  width: 100px;
+}
+
+.about__heading {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.about__text {
+  font-family: 'Saira', sans-serif;
+  margin: 0;
+  line-height: 1.6;
 }
