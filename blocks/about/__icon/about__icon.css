@@ -1,0 +1,7 @@
+@import url('./-image/about__icon-image.css');
+
+.about__icon {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}

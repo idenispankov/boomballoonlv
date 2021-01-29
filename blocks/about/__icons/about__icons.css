@@ -1,0 +1,10 @@
+.about__icons {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  padding-bottom: 40px;
+}

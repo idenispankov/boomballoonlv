@@ -1,0 +1,6 @@
+.section__description {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
