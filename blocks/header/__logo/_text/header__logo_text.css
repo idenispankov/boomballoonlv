@@ -1,0 +1,10 @@
+.header__logo_text {
+  margin: 0;
+  padding: 10px;
+  margin-left: 10px;
+  color: #fff;
+  font-weight: 300px;
+  line-height: 1.2;
+  font-size: 35px;
+  font-family: 'Cinzen', sans-serif;
+}

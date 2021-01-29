@@ -1,0 +1,7 @@
+.header__navbar_list {
+  margin: 0;
+  margin-right: 50px;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}

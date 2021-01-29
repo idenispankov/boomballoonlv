@@ -1,0 +1,12 @@
+.header__navbar_list_item {
+  margin: 0 5px;
+  padding: 3px 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500px;
+}
+
+.header__navbar_list_item:hover {
+  border-bottom: 2px solid #09a9f3;
+}
