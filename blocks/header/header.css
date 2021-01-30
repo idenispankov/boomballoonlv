@@ -7,7 +7,7 @@
 @import url('./__navbar/header__navbar.css');
 
 .header {
-  background-image: url('../../images/header__image.jpg');
+  background-image: url('../../images/header_image.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,7 +15,7 @@
   height: 100vh;
 }
 
-.header *{
+/* .header *{
   z-index: 10;
 }
 
@@ -26,5 +26,5 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.2);
-}
+  background: rgba(0,0,0,0.1);
+} */
