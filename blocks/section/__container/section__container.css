@@ -1,3 +1,8 @@
+@import url('./_image/section__container_image.css');
+@import url('./_description/section__container_description.css');
+@import url('./_heading/section__container_heading.css');
+@import url('./_text/section__container_text.css');
+
 .section__container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

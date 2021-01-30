@@ -1,0 +1,15 @@
+@import url('./_image/section__list_image.css');
+@import url('./_item/section__list_item.css');
+@import url('./_heading/section__list_heading.css');
+@import url('./_text/section__list_text.css');
+
+.section__list {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 5px;
+  list-style: none;
+  text-align: center;
+}

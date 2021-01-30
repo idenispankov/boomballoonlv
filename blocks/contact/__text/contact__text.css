@@ -1,0 +1,8 @@
+.contact__text {
+  padding: 0;
+  line-height: 1.6;
+}
+
+.contact__text:last-child {
+  padding-bottom: 40px;
+}

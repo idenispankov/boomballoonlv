@@ -1,0 +1,8 @@
+@import url('./_submit-button/contact__form_submit-button.css');
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}

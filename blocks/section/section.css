@@ -1,8 +1,7 @@
+@import url('./__container/section__container.css');
 @import url('./__heading/section__heading.css');
 @import url('./__text/section__text.css');
-@import url('./__container/section__container.css');
-@import url('./__image/section__image.css');
-@import url('./__description/section__description.css');
+@import url('./__list/section__list.css');
 
 .section {
   display: flex;

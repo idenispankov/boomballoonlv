@@ -1,0 +1,9 @@
+.contact__input {
+  margin: 0 auto;
+  width: 80%;
+  margin-bottom: 40px;
+  padding: 10px;
+  font-family: 'Saira', sans-serif;
+  border: none;
+  border-radius: 5px;
+}

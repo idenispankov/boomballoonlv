@@ -1,0 +1,9 @@
+.footer__icon {
+  width: 50px;
+  object-fit: cover;
+}
+
+.footer__icon:hover {
+  background-color: #09a9f3;
+  border-radius: 50%;
+}
