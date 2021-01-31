@@ -7,5 +7,5 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
-  background-color: #09a9f3;
+  background-color: #f4f2f5;
 }

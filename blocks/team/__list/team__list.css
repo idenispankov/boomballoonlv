@@ -1,0 +1,12 @@
+@import url('./_image/team__list_image.css');
+
+.team__list {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 5px;
+  list-style: none;
+  text-align: center;
+}

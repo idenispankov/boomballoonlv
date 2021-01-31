@@ -1,4 +1,7 @@
 .section__list_item {
-  background-color: #09a9f3;
+  /* background-color: #f4f2f5; */
+  background-color: #ac7de0;
+  
   margin-top: 5px;
+  margin-bottom: 5px;
 }

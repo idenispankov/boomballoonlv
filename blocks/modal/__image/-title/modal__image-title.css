@@ -1,0 +1,10 @@
+.modal__image-title {
+  font-family: 'Saira', sans-serif;
+  max-width: 220px;
+  font-size: 14px;
+  line-height: 15px;
+  color: #fff;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

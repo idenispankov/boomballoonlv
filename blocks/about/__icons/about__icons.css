@@ -4,7 +4,7 @@
   list-style: none;
   display: grid;
   flex-wrap: wrap;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-template-rows: auto;
   padding-bottom: 40px;
 }

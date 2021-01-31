@@ -1,4 +1,5 @@
 @import url('./-image/about__icon-image.css');
+@import url('./_link/about__icon_link.css');
 
 .about__icon {
   margin: 0;

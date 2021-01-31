@@ -1,7 +1,7 @@
 .contact__form_submit-button {
   border: 2px solid #fff;
   border-radius: 5px;
-  background-color: #09a9f3;
+  background-color: #ac7de0;
   font-family: 'Saira', sans-serif;
   font-size: 20px;
   color: #fff;
@@ -13,6 +13,7 @@
 }
 
 .contact__form_submit-button:hover {
+  cursor: pointer;
   opacity: 0.8;
   color: #fff;
 }

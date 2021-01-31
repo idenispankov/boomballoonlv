@@ -9,9 +9,9 @@
   text-decoration: none;
   color: #fff;
   transition: opacity 0.2s linear;
+  background-color: #ac7de0;
 }
 
 .header__content_button:hover {
-  opacity: 0.7;
-  color: #09a9f3;
+  opacity: 0.8;
 }
