@@ -1,17 +1,19 @@
-.contact__input {
+.contact__message {
   margin: 0 auto;
-  width: 80%;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   padding: 10px;
   font-family: 'Saira', sans-serif;
   border: none;
   border-radius: 5px;
+  max-width: 80%;
+  min-width: 80%;
+  min-height: 150px;
+  resize: none;
   outline: none;
   box-sizing: border-box;
   border: 2px solid #ac7de0;
 }
 
-.contact__input:focus {
+.contact__message:focus {
   border: 2px solid #ac7de0;
-  box-sizing: border-box;
 }

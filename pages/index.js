@@ -1,13 +1,11 @@
 const modal = document.querySelector('.modal');
 const image = document.querySelectorAll('.section__list_image');
 const imagePopup = document.querySelector('.modal__image');
-const imagePopupTitle = document.querySelector('.modal__image-title');
 
 image.forEach(item => {
   item.addEventListener('click', (e) => {
     modal.classList.add('modal_is-open');
     imagePopup.src = e.target.src;
-    imagePopupTitle.textContent = e.target.alt;
   })
 })
 
@@ -25,3 +23,14 @@ function closeModalOutside(e) {
 
 document.addEventListener('keyup', escCloseModal);
 document.addEventListener('click', closeModalOutside);
+
+let prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  let currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
+}

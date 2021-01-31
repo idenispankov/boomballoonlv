@@ -1,4 +1,5 @@
 .gallery__heading {
   font-size: 60px;
   border: none;
+  border-bottom: 3px solid #ac7de0;
 }

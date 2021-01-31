@@ -1,8 +1,6 @@
-@import url('./_is-open/modal_is-open.css');
 @import url('./__image/modal__image.css');
 @import url('./__figure/modal__figure.css');
 @import url('./__close-button/modal__close-button.css');
-@import url('./_is-open/modal_is-open.css');
 
 .modal {
   display: flex;
