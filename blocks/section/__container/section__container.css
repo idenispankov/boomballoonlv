@@ -8,6 +8,7 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
   background-color: #f4f2f5;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 414px) {

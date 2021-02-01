@@ -1,6 +1,7 @@
 .contact__text {
   padding: 0;
   line-height: 1.6;
+  color: blue;
 }
 
 .contact__text:last-child {
