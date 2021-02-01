@@ -3,6 +3,7 @@
 @import url('./__form/contact__form.css');
 @import url('./__input/contact__input.css');
 @import url('./__message/contact__message.css');
+@import url('./__email/contact__email.css');
 
 .contact {
   max-width: 1280px;
