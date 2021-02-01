@@ -16,6 +16,13 @@
   opacity: 0.8;
 }
 
+@media screen and (max-width: 414px) {
+  .header__content_button {
+    font-size: 15px;
+    padding: 7px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .header__content_button {
     font-size: 15px;

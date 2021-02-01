@@ -12,6 +12,13 @@
   }
 }
 
+@media screen and (max-width: 414px) {
+  .header__content_text {
+    padding-bottom: 40px;
+    font-size: 18px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .header__content_text {
     padding-bottom: 40px;

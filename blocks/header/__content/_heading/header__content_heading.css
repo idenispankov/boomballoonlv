@@ -13,6 +13,13 @@
   }
 }
 
+@media screen and (max-width: 414px) {
+  .header__content_heading {
+    padding-top: 50px;
+    font-size: 30px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .header__content_heading {
     padding-top: 50px;

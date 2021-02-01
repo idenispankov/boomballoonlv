@@ -10,6 +10,13 @@
   background-color: #f4f2f5;
 }
 
+@media screen and (max-width: 414px) {
+  .section__container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .section__container {
     grid-template-columns: repeat(1, 1fr);

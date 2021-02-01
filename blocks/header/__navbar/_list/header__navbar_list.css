@@ -13,6 +13,12 @@
   }
 }
 
+@media screen and (max-width: 414px) {
+  .header__navbar_list {
+    padding-bottom: 20px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .header__navbar_list {
     padding-bottom: 20px;

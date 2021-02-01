@@ -10,6 +10,13 @@
   }
 }
 
+@media screen and (max-width: 414px) {
+  .about__heading {
+    font-size: 15px;
+    padding: 0 0 20px 0;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .about__heading {
     font-size: 15px;

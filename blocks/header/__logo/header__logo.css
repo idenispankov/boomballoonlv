@@ -11,6 +11,12 @@
   }
 }
 
+@media screen and (max-width: 414px) {
+  .header__logo {
+    padding-bottom: 5px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .header__logo {
     padding-bottom: 5px;

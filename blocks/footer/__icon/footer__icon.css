@@ -8,6 +8,12 @@
   border-radius: 50%;
 }
 
+@media screen and (max-width: 414px) {
+  .footer__icon {
+    width: 40px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .footer__icon {
     width: 40px;

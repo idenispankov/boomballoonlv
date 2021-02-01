@@ -10,6 +10,12 @@
   }
 }
 
+@media screen and (max-width: 414px) {
+  .section__list_text {
+    font-size: 10px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .section__list_text {
     font-size: 10px;

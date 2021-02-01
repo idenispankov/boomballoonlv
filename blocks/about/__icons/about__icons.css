@@ -9,6 +9,13 @@
   padding-bottom: 40px;
 }
 
+@media screen and (max-width: 414px) {
+  .about__icons {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .about__icons {
     grid-template-columns: repeat(1, 1fr);

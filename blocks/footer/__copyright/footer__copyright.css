@@ -5,6 +5,12 @@
   padding-top: 20px;
 }
 
+@media screen and (max-width: 414px) {
+  .footer__copyright {
+    font-size: 12px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .footer__copyright {
     font-size: 12px;

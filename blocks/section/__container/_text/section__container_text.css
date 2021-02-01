@@ -24,3 +24,15 @@
     padding: 0 30px;
   }
 }
+
+@media screen and (max-width: 414px) {
+  .section__container_text {
+    padding: 0 30px 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .section__container_text {
+    padding: 0 30px 20px;
+  }
+}
