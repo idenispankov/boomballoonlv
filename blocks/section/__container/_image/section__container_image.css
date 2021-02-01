@@ -5,3 +5,16 @@
   display: block;
   object-fit: cover;
 }
+
+@media screen and (max-width: 768px) {
+  .section__container_image {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .section__container_image {
+    max-width: 375px;
+  }
+}

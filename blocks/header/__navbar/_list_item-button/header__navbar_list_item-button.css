@@ -5,10 +5,16 @@
   margin: 0;
   padding: 5px 20px;
   margin-left: 20px;
-  /* border: 2px solid #fff; */
   transition: opacity 0.2s linear;
 }
 
 .header__navbar_list_item-button:hover {
   opacity: 0.7;
+}
+
+@media screen and (max-width: 375px) {
+  .header__navbar_list_item-button {
+    margin-left: 5px;
+    padding: 5px 5px;
+  }
 }

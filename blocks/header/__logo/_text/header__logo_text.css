@@ -8,3 +8,9 @@
   font-size: 35px;
   font-family: 'Cinzen', sans-serif;
 }
+
+@media screen and (max-width: 375px) {
+  .header__logo_text {
+    font-size: 25px;
+  }
+}

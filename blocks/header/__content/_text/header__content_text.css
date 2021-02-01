@@ -5,3 +5,16 @@
   padding: 0;
   padding-bottom: 100px;
 }
+
+@media screen and (max-width: 1024px) {
+  .header__content_text {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header__content_text {
+    padding-bottom: 40px;
+    font-size: 18px;
+  }
+}

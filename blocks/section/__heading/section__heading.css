@@ -7,3 +7,10 @@
   border-bottom: 2px solid #ac7de0;
   max-width: 60%;
 }
+
+@media screen and (max-width: 375px) {
+  .section__heading {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}

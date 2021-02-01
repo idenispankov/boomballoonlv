@@ -1,3 +1,9 @@
 .about__icon-image {
   width: 100px;
 }
+
+@media screen and (max-width: 375px) {
+  .about__icon-image {
+    width: 100px;
+  }
+}

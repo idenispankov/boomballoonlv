@@ -4,3 +4,15 @@
   max-width: 1280px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1024px) {
+  .team {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .team {
+    max-width: 768px;
+  }
+}

@@ -17,3 +17,9 @@
   opacity: 0.8;
   color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  .contact__form_submit-button {
+    width: 50%;
+  }
+}

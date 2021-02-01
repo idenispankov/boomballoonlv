@@ -5,3 +5,16 @@
   display: flex;
   list-style: none;
 }
+
+@media screen and (max-width: 768px) {
+  .header__navbar_list {
+    margin: 0;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header__navbar_list {
+    padding-bottom: 20px;
+  }
+}

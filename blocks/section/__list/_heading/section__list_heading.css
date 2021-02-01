@@ -3,3 +3,23 @@
   font-size: 26px;
   font-weight: 400;
 }
+
+@media screen and (max-width: 1024px) {
+  .section__list_heading {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section__list_heading {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .section__list_heading {
+    font-size: 14px;
+    margin: 0;
+    padding-top: 10px;
+  }
+}

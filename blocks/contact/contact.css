@@ -9,3 +9,22 @@
   margin: 0 auto;
   padding-bottom: 40px;
 }
+
+@media screen and (max-width: 1024px) {
+  .contact {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    max-width: 768px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .contact {
+    max-width: 375px;
+  }
+}

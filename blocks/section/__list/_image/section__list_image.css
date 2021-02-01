@@ -11,3 +11,15 @@
   cursor: pointer;
   opacity: 0.7;
 }
+
+@media screen and (max-width:1024px) {
+  .section__list_image {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section__list_image {
+    height: 190px;
+  }
+}

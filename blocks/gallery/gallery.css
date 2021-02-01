@@ -5,3 +5,21 @@
   max-width: 1280px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1024px) {
+  .gallery {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gallery {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .gallery {
+    max-width: 375px;
+  }
+}

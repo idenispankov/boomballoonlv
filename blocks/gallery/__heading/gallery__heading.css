@@ -3,3 +3,10 @@
   border: none;
   border-bottom: 3px solid #ac7de0;
 }
+
+@media screen and (max-width: 375px) {
+  .gallery__heading {
+    font-size: 40px;
+    font-weight: bold;
+  }
+}

@@ -7,3 +7,9 @@
   background-color: #ac7de0;
   border-radius: 50%;
 }
+
+@media screen and (max-width: 375px) {
+  .footer__icon {
+    width: 40px;
+  }
+}

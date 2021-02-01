@@ -3,3 +3,16 @@
   padding: 20px 0 0 0;
   font-size: 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .about__heading {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .about__heading {
+    font-size: 15px;
+    padding: 0 0 20px 0;
+  }
+}
