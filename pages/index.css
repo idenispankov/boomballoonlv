@@ -11,11 +11,3 @@
 @import url('../blocks/contact/contact.css');
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/modal/modal.css');
-
-.contact__container {
-  display: none;
-}
-
-.section__team_heading {
-  margin-bottom: 40px;
-}

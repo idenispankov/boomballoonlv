@@ -2,6 +2,7 @@
 @import url('./__heading/section__heading.css');
 @import url('./__text/section__text.css');
 @import url('./__list/section__list.css');
+@import url('./__team_heading/section__team_heading.css');
 
 .section {
   display: flex;

@@ -1,5 +1,6 @@
 @import url('./__list/gallery__list.css');
 @import url('./__heading/gallery__heading.css');
+@import url('./__text/gallery__text.css');
 
 .gallery {
   max-width: 1280px;
