@@ -12,8 +12,6 @@
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/modal/modal.css');
 
-@media screen and (max-width: 414px) {
-  .contact__container_image {
-    display: none;
-  }
+.contact__container {
+  display: none;
 }
