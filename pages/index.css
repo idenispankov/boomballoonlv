@@ -15,3 +15,7 @@
 .contact__container {
   display: none;
 }
+
+.section__team_heading {
+  margin-bottom: 40px;
+}
