@@ -1,5 +1,6 @@
 .gallery__heading {
   font-size: 60px;
+  font-weight: 400;
   border: none;
   border-bottom: 3px solid #ac7de0;
 }
@@ -7,13 +8,11 @@
 @media screen and (max-width: 414px) {
   .gallery__heading {
     font-size: 30px;
-    font-weight: bold;
   }
 }
 
 @media screen and (max-width: 375px) {
   .gallery__heading {
     font-size: 30px;
-    font-weight: bold;
   }
 }
