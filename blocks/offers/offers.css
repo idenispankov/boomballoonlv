@@ -1,4 +1,5 @@
 @import url('./__list/offers__list.css');
+@import url('./__heading/offers__heading.css');
 
 .offers {
   max-width: 1280px;
