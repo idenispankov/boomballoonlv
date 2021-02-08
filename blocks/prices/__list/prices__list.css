@@ -1,0 +1,30 @@
+@import url('./_image/prices__list_image.css');
+@import url('./_description/prices__list_description.css');
+@import url('./_heading/prices__list_heading.css');
+@import url('./_text/prices__list_text.css');
+
+.prices__list {
+  list-style: none;
+  display: grid;
+  margin: 0;
+  padding: 0;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 5px;
+}
+
+@media screen and (max-width: 414px) {
+  .prices__list {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 5px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .prices__list {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 5px;
+  }
+}

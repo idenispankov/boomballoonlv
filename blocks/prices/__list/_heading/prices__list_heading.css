@@ -1,0 +1,22 @@
+.prices__list_heading {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 10px;
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .prices__list_heading {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .prices__list_heading {
+    font-size: 10px;
+    padding-bottom: 5px;
+  }
+}
