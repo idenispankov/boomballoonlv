@@ -5,7 +5,7 @@
   border-bottom: 3px solid #ac7de0;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 430px) {
   .gallery__heading {
     font-size: 30px;
   }

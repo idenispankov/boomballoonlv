@@ -24,7 +24,7 @@
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 430px) {
   .section__container_text {
     padding: 0 30px 20px;
     width: 80%;

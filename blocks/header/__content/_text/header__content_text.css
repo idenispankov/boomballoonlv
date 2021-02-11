@@ -12,7 +12,7 @@
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 430px) {
   .header__content_text {
     padding-bottom: 40px;
     font-size: 18px;

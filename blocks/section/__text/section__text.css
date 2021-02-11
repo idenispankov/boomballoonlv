@@ -9,7 +9,7 @@
   line-height: 1.6;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 430px) {
   .section__text {
     font-size: 16px;
     max-width: 80%;

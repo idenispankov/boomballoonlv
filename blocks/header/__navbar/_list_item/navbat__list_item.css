@@ -7,11 +7,7 @@
   font-weight: 500px;
 }
 
-/* .header__navbar_list_item:hover {
-  border-bottom: 2px solid #8324db;
-} */
-
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 430px) {
   .header__navbar_list_item {
     font-size: 12px;
     padding: 3px 10px;

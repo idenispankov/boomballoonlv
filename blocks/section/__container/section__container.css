@@ -11,7 +11,7 @@
   margin-top: 20px;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 430px) {
   .section__container {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;

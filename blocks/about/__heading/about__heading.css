@@ -10,7 +10,7 @@
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 430px) {
   .about__heading {
     font-size: 15px;
     padding: 0 0 20px 0;
