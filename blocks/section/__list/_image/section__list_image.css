@@ -5,6 +5,7 @@
   display: block;
   object-fit: cover;
   height: 300px;
+  border-radius: 20px;
 }
 
 .section__list_image:hover {
