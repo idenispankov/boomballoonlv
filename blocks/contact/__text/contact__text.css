@@ -1,7 +1,8 @@
 .contact__text {
   padding: 0;
   line-height: 1.6;
-  color: blue;
+  color: #f4a6e7;;
   padding-bottom: 15px;
   margin: 0;
+  text-decoration: none;
 }
