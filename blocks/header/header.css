@@ -8,12 +8,12 @@
 
 .header {
   /* background-image: url('../../images/header_image.jpg'); */
-  /* background-image: url('../../images/cover_home.png'); */
-  background-image: url('../../images/header_pink.jpg');
+  background-image: url('../../images/cover_home.png');
+  /* background-image: url('../../images/header_pink.jpg'); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x: right;
+  background-position-x: left;
   position: relative;
   height: 100vh;
   width: 100vw;
