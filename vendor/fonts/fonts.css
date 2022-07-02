@@ -33,3 +33,12 @@
   src: url('./saira-500.woff2') format('woff2'),
        url('./saira-500.woff') format('woff')
 }
+
+@font-face {
+  font-family: 'Silently';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./Silently\ FREE.otf') format('otf'),
+       url('./Silently\ FREE.ttf') format('ttf')
+}
