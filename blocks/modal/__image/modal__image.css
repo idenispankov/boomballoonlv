@@ -3,6 +3,7 @@
 .modal__image {
   max-width: 75vw;
   max-height: 75vh;
+  border-radius: 15px;
 }
 
 @media screen and (max-width: 815px) {
