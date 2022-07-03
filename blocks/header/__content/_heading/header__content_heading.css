@@ -8,15 +8,8 @@
 
 @media screen and (max-width: 768px) {
   .header__content_heading {
-    font-size: 55px;
+    font-size: 50px;
     padding-top: 200px;
-  }
-}
-
-@media screen and (max-width: 430px) {
-  .header__content_heading {
-    padding-top: 50px;
-    font-size: 30px;
   }
 }
 
